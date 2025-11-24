@@ -1,0 +1,60 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+.hero {
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.experience h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.experience h3 {
+    color: #FF4A17;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.functie, .periode{
+    margin: 0;
+}
+
+.periode {
+    font-size: 15px;
+
+}
+
+.functie-titel {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.experience-item  {
+    background-color: #2C2C2E;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 2px;
+
+}
+
+
+
