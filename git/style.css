@@ -4,12 +4,65 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    max-width: 1000px;
+}
+
+.pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20rem;
+}
+
+.socials {
+    position: relative;
+    min-height: 100vh;
+}
+
+.verticale-links {
+    list-style: none;
+    margin: 0;
+    padding: 15px 8px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    right: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.social-link a {
+    text-decoration: none;
+    color: white;
 
 }
 
-.hero {
-    padding: 80px 20px;
+.social-link a:hover {
+    text-decoration: none;
+    color: #FF4A17;
+    transition: 0.5s;
 }
+
+.follow-me {
+    //color: #6A7282;
+    color: gray;
+}
+
+.leestekens {
+    color: #6A7282;
+    font-weight: bold;
+}
+
+
+
+
+
+p {
+    color: gray;
+}
+
+
+
 
 .hero h1 {
     color: white;
@@ -45,11 +98,12 @@ body {
 .functie-titel {
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 
 .experience-item  {
-    background-color: #2C2C2E;
+    //background-color: #2C2C2E;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 2px;
