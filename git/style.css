@@ -25,6 +25,30 @@ header {
     padding: 10px 0;
 }
 
+.navbar {
+    font-size: 20px;
+    display: none;
+    flex-direction: row;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+.navbar.show {
+    display: flex;
+}
+
+.navbar-item {
+    margin: 10px 0;
+
+
+}
+
+.navbar-item a:hover {
+    color: #FF4A17;
+    transition: 0.5s;
+    font-size: 18px;
+    text-decoration: underline;
+}
 
 
 .menu-toggle {
@@ -95,7 +119,29 @@ p {
     color: gray;
 }
 
+.circle-bg {
 
+}
+
+.circle-bg img {
+    width: 60px; /* Adjust size of your inner image */
+    height: 60px;
+    /* If the image isn't square, you might need 'object-fit: cover;' */
+}
+
+
+.hero {
+    //display: flex;;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-image {
+  width: 250px;
+    height: 280px;
+}
 
 
 .hero h1 {
@@ -113,29 +159,6 @@ p {
 
 .experience h3 {
     color: #FF4A17;
-}
-
-.navbar {
-    font-size: 20px;
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    padding: 10px 20px;
-    top: 60px;
-}
-
-.navbar.show {
-    display: flex;
-}
-
-.navbar-item {
-    margin: 10px 0;
-}
-
-.navbar-item a:hover {
-    color: #FF4A17;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 
