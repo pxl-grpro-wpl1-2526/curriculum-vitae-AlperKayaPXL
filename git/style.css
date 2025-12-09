@@ -6,36 +6,64 @@ body {
     color: white;
 }
 
-.pagina {
+.heel-pagina {
+    display: flex;
+}
+
+.heel-pagina-inner {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20rem;
+
 }
 
-.socials {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
+.button-image {
+    height: 45px;
+    width: 45px;
+    object-fit: contain;
+
+
 }
+
+.menu-toggle {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+
+
+}
+
+.button-image:hover {
+    background-color: #FF4A17;
+    transform: scale(1.01);
+}
+
 
 .verticale-links {
     position: absolute;
     list-style: none;
-    right: 0;
+    right: 10px;
     align-content: flex-end;
     margin: 0;
-    padding: 15px 10px;
+
     writing-mode: vertical-lr;
     transform: rotate(180deg);
 
-    top: 50%;
+    min-height: 55vh;
     display: flex;
     gap: 0.5rem;
 }
 
-.social-link a {
+a {
     text-decoration: none;
     color: white;
+    font-size: 16px;
 
 }
 
@@ -43,6 +71,7 @@ body {
     text-decoration: none;
     color: #FF4A17;
     transition: 0.5s;
+    font-size: 18px;
 }
 
 .follow-me {
@@ -54,9 +83,6 @@ body {
     color: #6A7282;
     font-weight: bold;
 }
-
-
-
 
 
 p {
@@ -83,11 +109,23 @@ p {
     color: #FF4A17;
 }
 
-.experience ul {
+.navbar {
+    gap: 3rem;
+}
+
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
+
+.navbar-item {
+    float: right;
+}
+
+
+
 .functie, .periode{
     margin: 0;
 }
@@ -109,6 +147,13 @@ p {
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 2px;
+
+}
+
+footer {
+    //background-color: #2C2C2E;
+    text-align: center;
+    color: white;
 
 }
 
