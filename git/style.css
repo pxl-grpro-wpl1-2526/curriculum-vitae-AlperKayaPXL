@@ -131,23 +131,29 @@ p {
 
 
 .hero {
-    //display: flex;;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+
+   // justify-content: center;
+   // align-items: center;
+  //  margin: 0 auto;
     text-align: center;
 }
 
 .hero-image {
-  width: 250px;
+
+
+    width: 250px;
     height: 280px;
+    text-align: center;
+
 }
 
 
 .hero h1 {
     color: white;
     font-size: 50px;
-    margin: 0;
+    margin-bottom: 100px;
+    text-align: left;
+
 }
 
 .experience h2 {
@@ -200,6 +206,13 @@ footer {
     //background-color: #2C2C2E;
     text-align: center;
     color: white;
+
+}
+
+.readme-body {
+    background-image: url('assets/background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
