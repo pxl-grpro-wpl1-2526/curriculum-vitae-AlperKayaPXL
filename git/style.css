@@ -27,8 +27,10 @@ body {
 
 .heel-pagina-inner {
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 0;
+    border-radius: 20pt;
+    //border: 2px solid black;
 }
 
 header {
@@ -193,19 +195,39 @@ p {
     color: gray;
 }
 
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+}
+
+.onderwijs-item {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.experience {
+    margin-top: 500px;
+}
+
 
 .experience ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+//gap: 20px;
 
 }
 
 .experience-item {
 
-    background-color: #0D0D0D;
-    border-radius: 1px;
+    background-color: #222222;
+    padding: 20px;
 }
+
+
+
 
 .experience-item:hover {
     //background-color: #100F0F;
@@ -214,12 +236,15 @@ p {
     transform: scale(1.01);
 }
 
-.experience h2 {
-    color: white;
-    font-size: 32px;
-    margin-bottom: 1px;
+h2 {
     text-align: left;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 1px;
+
 }
+
+
 
 .experience h3 {
     color: #FF4A17;
@@ -246,19 +271,13 @@ ul {
 }
 
 .functie-titel {
-    font-size: 20px;
+    font-size: 13px;
     font-weight: bold;
     color: white;
 }
 
 
-.experience-item  {
-    //background-color: #2C2C2E;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 2px;
 
-}
 
 footer {
     //background-color: #2C2C2E;
