@@ -1,22 +1,19 @@
 body {
     font-family: Poppins, sans-serif;
+    background-color: #222222;
     //background: #0D0D0D;
     //background-color: #EFEFEF;
-    background-color: black;
+    //background-color: black;
     margin: 0;
     padding: 0;
     color: white;
-
 }
 
 .hero-page {
-    //position: absolute;
-    background: black;
-    //background: #0D0D0D;
     width: 100%;
     margin: 0;
     padding: 0;
-    max-width: 1800px;
+    background-color: #222222;
 }
 
 .heel-pagina {
@@ -24,7 +21,7 @@ body {
 }
 
 .heel-pagina-inner {
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0;
 }
@@ -45,7 +42,7 @@ header {
     display: none;
     flex-direction: row;
     margin-right: 10px;
-    gap: 15px;
+    gap: 25px;
 }
 
 .navbar.show {
@@ -93,13 +90,9 @@ header {
 
 .verticale-links {
     list-style: none;
-    right: 10px;
-    align-content: flex-start;
-    margin: 0;
-
+    margin-right: 5px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-
     min-height: 55vh;
     display: flex;
     gap: 0.5rem;
@@ -134,40 +127,43 @@ p {
     color: gray;
 }
 
-.circle-bg {
 
-}
 
-.circle-bg img {
-    width: 60px; /* Adjust size of your inner image */
-    height: 60px;
-    /* If the image isn't square, you might need 'object-fit: cover;' */
-}
 
 .hero {
-
-   // justify-content: center;
-   // align-items: center;
-  //  margin: 0 auto;
-    text-align: center;
+    display: flex;
 }
+
+
 
 .hero-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 22px solid #2C2C2E;
+    margin-left: 120px;
+}
 
+.hero-informatie {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 40%;
 
-    width: 250px;
-    height: 280px;
-    text-align: center;
 
 }
 
-
 .hero h1 {
-    color: white;
+    color: #F5F5F5;
     font-size: 50px;
-    margin-bottom: 100px;
-    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+}
 
+h4 {
+    color: #AAAAAA;
+    margin: 0;
+    padding: 0;
 }
 
 .experience ul {
