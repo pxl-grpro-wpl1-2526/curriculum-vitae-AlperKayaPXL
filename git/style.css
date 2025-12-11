@@ -1,9 +1,14 @@
 * {
-    font-family: Nunito, sans-serif;
+    //font-family: Nunito, sans-serif;
+    //font-family: "Yu Gothic UI", sans-serif;
+    //font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 body {
-    font-family: Inter, sans-serif;
+    //font-family: Inter, sans-serif;
+    //background-color: white;
+    //background-color: #2C2C2E;
     background-color: #222222;
     //background: #0D0D0D;
     //background-color: #EFEFEF;
@@ -18,7 +23,6 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #222222;
 }
 
 .heel-pagina {
@@ -195,56 +199,91 @@ p {
     color: gray;
 }
 
-ul {
+.opleiding {
+    margin-top: 90px;
+}
+
+.opleiding-ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0;
     padding: 0;
+    //gap: 25px;
+    justify-content: space-between;
+    //background-color: #2C2C2E;
+    //border: 1px solid #F5F5F5;
+    border-radius: 2px;
 }
 
 .onderwijs-item {
     padding: 10px;
     text-align: center;
+    border: 1px solid gray;
+
+
+}
+.onderwijs-item:hover {
+    transform: scale(1.02);
+}
+
+.onderwijs-item:hover {
+    background-color: #0D0D0D;
+}
+
+.school-img {
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
 
 
+
 .experience {
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 
 .experience ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-//gap: 20px;
+    gap: 15px;
 
 }
 
 .experience-item {
 
-    background-color: #222222;
+    background-color: #2C2C2E;
     padding: 20px;
+    border-radius: 20pt;
+    //border: 1px solid white;
+    width: 90%;
 }
 
 
 
 
 .experience-item:hover {
+    //background-color: #2C2C2E;
     //background-color: #100F0F;
     background-color: #090909;
     transition: 0.4s;
-    transform: scale(1.01);
+    //transform: scale(1.01);
+
 }
 
 h2 {
     text-align: left;
     color: white;
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 1px;
 
 }
 
 
+h3 {
+    color: #FF4A17;
+}
 
 .experience h3 {
     color: #FF4A17;
