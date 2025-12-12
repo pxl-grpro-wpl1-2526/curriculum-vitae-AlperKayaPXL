@@ -1,21 +1,24 @@
 * {
-    //font-family: Nunito, sans-serif;
+    font-family: Nunito, sans-serif;
     //font-family: "Yu Gothic UI", sans-serif;
     //font-family: Arial, Helvetica, sans-serif;
-    font-family: Poppins, sans-serif;
+    //font-family: Poppins, sans-serif;
 }
 
 body {
     //font-family: Inter, sans-serif;
+    //background-color: #FBF9F6;
     //background-color: white;
     //background-color: #2C2C2E;
-    background-color: #222222;
-    //background: #0D0D0D;
+    //background-color: #222222;
+    background: #0D0D0D;
     //background-color: #EFEFEF;
     //background-color: black;
+    //background-color: #1F2937;
+    //background-color: #090909;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #1F2937;
     line-height: 1.5;
 }
 
@@ -30,11 +33,13 @@ body {
 }
 
 .heel-pagina-inner {
-    max-width: 1500px;
+    max-width: 1800px;
     margin: 5px auto;
     padding: 0;
     border-radius: 20pt;
     //border: 2px solid black;
+    //border: 1px solid #0D0D0D;
+
 }
 
 header {
@@ -118,6 +123,7 @@ header {
     flex-direction: column;
     margin: 50px;
     width: 40%;
+    background-color: #0D0D0D;
 
 
 }
@@ -194,10 +200,14 @@ a {
     font-weight: bold;
 }
 
-
-p {
-    color: gray;
+.beschrijving, p {
+    font-family: "Yu Gothic UI", sans-serif;
+    font-size: 22px;
+    color: #D3D3D3;
 }
+
+
+
 
 .opleiding {
     margin-top: 90px;
@@ -207,18 +217,17 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0;
-    padding: 0;
+    padding: 10px;
     //gap: 25px;
     justify-content: space-between;
     //background-color: #2C2C2E;
-    //border: 1px solid #F5F5F5;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .onderwijs-item {
     padding: 10px;
     text-align: center;
-    border: 1px solid gray;
+    //border: 1px solid #0D0D0D;
 
 
 }
@@ -240,33 +249,42 @@ p {
 
 
 .experience {
+    display: flex;
     margin-top: 100px;
+    justify-content: space-between;
+
+
 }
 
 
 .experience ul {
+    padding: 0;
+    margin: 0;
+    //background-color: #0D0D0D;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-
+    //border-radius: 20pt;
+    //border: 5px solid #0D0D0D;
+    //width: 75%;
 }
 
 .experience-item {
-
-    background-color: #2C2C2E;
-    padding: 20px;
-    border-radius: 20pt;
+    text-align: left;
+    width: 100%;
+    display: block;
+    //margin-left: auto;
+    //text-align: left;
     //border: 1px solid white;
-    width: 90%;
+    padding: 0;
+
 }
 
 
-
-
 .experience-item:hover {
-    //background-color: #2C2C2E;
+    background-color: #2C2C2E;
     //background-color: #100F0F;
-    background-color: #090909;
+    //background-color: #090909;
     transition: 0.4s;
     //transform: scale(1.01);
 
@@ -277,16 +295,28 @@ h2 {
     color: white;
     font-size: 18px;
     margin-bottom: 1px;
+}
 
+.opleiding-h2 {
+    font-size: 22px;
+}
+
+.experience-h2 {
+    font-size: 22px;
+    margin: 0;
 }
 
 
 h3 {
     color: #FF4A17;
+    //color: #FF6A3D;
+    //color: #2563EB;
 }
 
 .experience h3 {
     color: #FF4A17;
+    //color: #FF6A3D;
+    //color: #2563EB;
 }
 
 
@@ -302,6 +332,7 @@ ul {
 
 .functie, .periode{
     margin: 0;
+    font-size: 30px;
 }
 
 .periode {
@@ -309,10 +340,16 @@ ul {
 
 }
 
+.organisatie {
+
+}
+
 .functie-titel {
-    font-size: 13px;
+    font-size: 22px;
     font-weight: bold;
     color: white;
+    margin: 0;
+
 }
 
 
