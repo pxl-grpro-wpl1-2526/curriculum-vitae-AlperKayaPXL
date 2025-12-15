@@ -1,12 +1,11 @@
 html, body {
     font-family: Nunito, sans-serif;
-    line-height: 1.5em;
+    line-height: 2.2em;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     }
-
 #particles-js {
     position: fixed;
     top: 0;
@@ -18,17 +17,25 @@ html, body {
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
 
 }
-
 main {
     position: relative;
     z-index: 1;
     color: white;
     padding: 2rem;
 }
+p {
+    color: #AAAAAA;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .main-content{
     max-width: 1440px;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 header {
@@ -58,74 +65,81 @@ header {
 .navbar {
     font-size: 20px;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+
 }
 
 a {
-    color: #FF4A17;
+    color: #996868;
     text-decoration: none;
-    //font-family: Poppins, sans-serif;
 }
 
 .hero {
+    padding-top: 4rem;
     display: flex;
+    align-items: stretch;
 }
-
-
 
 .hero-image {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    border: 22px solid #2C2C2E;
-    margin-left: 120px;
+    text-align: left;
+    margin-right: 20px;
 }
+
+#hero-image {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 20px solid #3d2929;
+
+}
+
+.hero-titel {
+    color: #996868;
+    font-size: 2.5rem;
+}
+
+.hero-text {
+    padding-bottom: 40px;
+}
+
 
 .hero-informatie {
+    margin-left: 100px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    width: 40%;
-    background-color: #0D0D0D;
+    justify-content: space-between;
 
-
-}
-
-.hero h1 {
-    color: #F5F5F5;
-    font-size: 50px;
-    margin: 10px 0;
-    padding: 0;
 }
 
 h4 {
-    color: #AAAAAA;
-    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 2px 0;
     padding: 0;
 }
 
 .hero-buttons {
-    display: flex;
-    gap: 10px;
+    gap: 14px;
 
 }
 
 .hero-buttons p {
+    font-family: Nunito, sans-serif;
     margin: 10px 10px;
-    color: #AAAAAA;
-    font-size: 16px;
 }
 
 .hero-button {
     background: none;
-    border: 2pt solid black;
+    border: 3pt solid #3d2929;
     border-radius: 20px;
     transition: 0.5s;
 }
 
 .hero-button:hover {
     transform: scale(1.01);
-    border-color: #FF4A17;
+    border-color: #996868;
 }
 
 
