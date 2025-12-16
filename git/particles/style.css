@@ -65,14 +65,46 @@ header {
 .navbar {
     font-size: 20px;
     display: flex;
-    gap: 2rem;
+    //gap: 1rem;
+    align-items: center;
+    gap: 1rem;
 
 }
 
-a {
+.navbar-item {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+.navbar-item a {
+    //  color: white;
     color: #996868;
     text-decoration: none;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 17px;
+
 }
+
+.navbar-item:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.navbar-item a:hover {
+    //text-decoration: underline;
+}
+
+.navbar-item a.active {
+    background-color: #996868;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 .hero {
     padding-top: 4rem;
