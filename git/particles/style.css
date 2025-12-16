@@ -38,6 +38,8 @@ p {
     padding-top: 40px;
 }
 
+/* HEADER + NAV BAR */
+
 header {
     font-family: "Nunito", sans-serif;
     position: relative;
@@ -104,7 +106,7 @@ header {
     font-weight: bold;
 }
 
-
+/* HERO SECTIE */
 
 .hero {
     padding-top: 4rem;
@@ -125,9 +127,10 @@ header {
 
 }
 
-.hero-titel {
+.hero-titel h1{
     color: #996868;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
+    text-align: left;
 }
 
 .hero-text {
@@ -147,15 +150,16 @@ header {
 h4 {
     font-family: "Nunito", sans-serif;
     font-size: 30px;
-    color: white;
+    color: #FBF9F6;
     margin: 2px 0;
     padding: 0;
 }
 
 .hero-buttons {
-    gap: 14px;
-
+    display: flex;
+    gap: 0.5rem;
 }
+
 
 .hero-buttons p {
     font-family: Nunito, sans-serif;
@@ -164,7 +168,7 @@ h4 {
 
 .hero-button {
     background: none;
-    border: 3pt solid #3d2929;
+    border: 1pt solid #996868;
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -173,6 +177,89 @@ h4 {
     transform: scale(1.01);
     border-color: #996868;
 }
+
+/* EXPERIENCE */
+/* EXPERIENCE */
+/* EXPERIENCE */
+
+
+h1 {
+    font-size: 3rem;
+    color: #996868;
+    text-align: left;
+}
+
+.experience-content {
+    padding-top: 140px;
+}
+
+.experience-container {
+    padding-top: 10px;
+}
+
+.experience-cards-boven {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.experience-cards-onder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 50px;
+
+}
+
+.experience-card {
+    background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+    border: 1px solid #AAAAAA;
+    border-radius: 24px;
+    text-align: center;
+    height: 450px;
+    width: 450px;
+
+}
+
+.experience-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 10px -1px #996868;
+    border-color: #996868;
+    background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+
+}
+
+
+
+
+h2 {
+    font-size: 2rem;
+    color: #996868;
+//color: white;
+}
+
+.job-beschrijving {
+    font-size: 25px;
+    color: #FBF9F6;
+}
+
+.experience-card ul {
+    list-style-type: circle;
+    text-align: left;
+    margin: 0;
+    padding: 80px 0 0 20px;
+    list-style-position: inside;
+}
+
+.experience-card li {
+    color: #AAAAAA;
+    font-size: 22px;
+}
+
+
 
 
 .verticale-links {
@@ -183,5 +270,9 @@ h4 {
     min-height: 55vh;
     display: flex;
     gap: 0.5rem;
+}
+
+footer {
+    padding-top: 4rem;
 }
 
