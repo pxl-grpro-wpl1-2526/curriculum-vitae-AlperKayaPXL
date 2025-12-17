@@ -195,38 +195,32 @@ h1 {
 
 .experience-container {
     padding-top: 10px;
+
 }
 
-.experience-cards-boven {
-    display: flex;
-    flex-direction: row;
+.experience-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 
 }
 
-.experience-cards-onder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
-    gap: 50px;
-
-}
 
 .experience-card {
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
     border: 1px solid #AAAAAA;
     border-radius: 24px;
     text-align: center;
-    height: 400px;
-    width: 450px;
-
+    height: 420px;
+    width: 100%;
+    margin: 20px 0 0 0;
 }
 
 .experience-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 10px -1px #996868;
+    box-shadow: 0 10px 10px -1px #FBF9F6;
     border-color: #996868;
     //background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
 
@@ -257,7 +251,58 @@ h1 {
     font-size: 22px;
 }
 
+/* Einde ervaring */
 
+/* OPLEIDING */
+/* OPLEIDING */
+/* OPLEIDING */
+
+/* OPLEIDING Begint hier */
+
+.education-content {
+    //background: #FBF9F6;
+    background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+    border: 1px solid #AAAAAA;
+    //background: #2C2C2E;
+}
+
+.education-timeline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 40px 0;
+}
+
+.education-timeline::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #F5F5F5;
+}
+
+.opleiding-titel {
+    padding: 0;
+    color: #FBF9F6;
+}
+
+.opleiding-logo {
+    height: 70px;
+    width: 70px;
+}
+
+.timeline-item {
+    position: relative;
+    text-align: center;
+    width: 33%;
+}
+
+
+
+
+/* Ervaring eindigt hier */
 
 
 .verticale-links {
