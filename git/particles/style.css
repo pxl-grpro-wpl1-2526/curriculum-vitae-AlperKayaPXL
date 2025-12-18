@@ -30,6 +30,15 @@ p {
     padding: 0;
 }
 
+.default-pagina {
+    min-height: 100vh;
+}
+
+.education, .experience {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 
 .main-content{
@@ -37,6 +46,14 @@ p {
     margin: 0 auto;
     padding-top: 40px;
 }
+
+.sectie-titel {
+    font-size: 48px;
+    color: #FBF9F6;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 
 /* HEADER + NAV BAR */
 
@@ -107,16 +124,13 @@ header {
 }
 
 /* HERO SECTIE */
+/* HERO SECTIE */
+/* HERO SECTIE */
 
 .hero {
     padding-top: 4rem;
     display: flex;
     align-items: stretch;
-}
-
-.hero-image {
-    text-align: left;
-    margin-right: 20px;
 }
 
 #hero-image {
@@ -125,6 +139,10 @@ header {
     border-radius: 50%;
     border: 20px solid #3d2929;
 
+}
+
+#hero-image:hover {
+    box-shadow: 0 0 20px #996868;
 }
 
 .hero-titel h1{
@@ -209,10 +227,13 @@ h1 {
 
 
 .experience-card {
+
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
     border: 1px solid #AAAAAA;
     border-radius: 24px;
     text-align: center;
+    align-content: center;
+    justify-content: center;
     height: 420px;
     width: 100%;
     margin: 20px 0 0 0;
@@ -226,30 +247,49 @@ h1 {
 
 }
 
+.experience-card ul {
+    list-style: none;
+}
 
-.experience h2 {
-    font-size: 28px;
+.experience-card ul li {
+    //color: #F5F5F5;
+}
+
+
+.experience h2, .experience-title {
+    font-size: 32px;
     color: #996868;
-//color: white;
+}
+
+.organisatie {
+    color: #996868;
+    font-size: 22px;
+}
+
+.periode {
+    color: #AAAAAA;
+    font-size: 16px;
 }
 
 .job-beschrijving {
+    text-align: center;
     padding-top: 20px;
     font-size: 25px;
-    color: #FBF9F6;
+    color: #AAAAAA;
+    padding-bottom: 20px;
 }
 
-.experience-card ul {
-    list-style-type: circle;
-    text-align: left;
-    list-style-position: inside;
-    padding: 50px 0 0 20px;
-}
 
-.experience-card li {
+
+.beschrijving-item {
+    list-style: circle;
     color: #AAAAAA;
     font-size: 22px;
+    text-align: left;
+    padding-left: 15px;
+
 }
+
 
 /* Einde ervaring */
 
@@ -259,7 +299,13 @@ h1 {
 
 /* OPLEIDING Begint hier */
 
+.education {
+    padding-top: 100px;
+}
+
 .education-content {
+    margin: 0;
+    padding: 0;
     //background: #FBF9F6;
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
     border: 1px solid #AAAAAA;
@@ -270,7 +316,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin: 40px 0;
+    margin: 60px 0;
 }
 
 .education-timeline::before {
@@ -293,12 +339,19 @@ h1 {
     width: 70px;
 }
 
+.opleiding-logo:hover {
+    transform: scale(1.1);
+}
+
 .timeline-item {
     position: relative;
     text-align: center;
     width: 33%;
 }
 
+.huidig {
+    color: #996868;
+}
 
 
 
