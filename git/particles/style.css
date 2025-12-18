@@ -34,7 +34,7 @@ p {
     min-height: 100vh;
 }
 
-.education, .experience {
+.education, .experience, .languages {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -249,10 +249,9 @@ h1 {
 
 .experience-card ul {
     list-style: none;
-}
-
-.experience-card ul li {
-    //color: #F5F5F5;
+    text-align: center;
+    padding: 0;
+    //margin: 0;
 }
 
 
@@ -283,10 +282,11 @@ h1 {
 
 .beschrijving-item {
     list-style: circle;
+    margin-left: 35px;
     color: #AAAAAA;
     font-size: 22px;
     text-align: left;
-    padding-left: 15px;
+    //padding-left: 10px;
 
 }
 
@@ -300,7 +300,8 @@ h1 {
 /* OPLEIDING Begint hier */
 
 .education {
-    padding-top: 100px;
+    padding: 100px 0;
+
 }
 
 .education-content {
@@ -355,7 +356,46 @@ h1 {
 
 
 
-/* Ervaring eindigt hier */
+/* Opleiding eindigt hier */
+
+/* TALENKENNIS BEGINT HIER */
+/* TALENKENNIS BEGINT HIER */
+/* TALENKENNIS BEGINT HIER */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    table-layout: fixed;
+}
+
+table, th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border: 1px solid #AAAAAA;
+}
+
+th {
+    //text-align: center;
+    font-size: 18px;
+}
+
+thead {
+    background-color: #996868;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background: #996868;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #F5F5F5;
+}
+
+
+
 
 
 .verticale-links {
