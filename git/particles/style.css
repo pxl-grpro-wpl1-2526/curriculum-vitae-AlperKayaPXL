@@ -395,9 +395,16 @@ table tbody tr:nth-child(odd) {
     background: #F5F5F5;
 }
 
-table tbody td:hover {
+table tbody tr:nth-child(odd):hover {
     //transform: scale(1.01);
     background: #D3D3D3;
+
+}
+
+
+table tbody tr:nth-child(even):hover {
+//transform: scale(1.01);
+    background: #3d2929;
 
 }
 
