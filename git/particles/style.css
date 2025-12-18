@@ -382,7 +382,8 @@ th {
 }
 
 thead {
-    background-color: #996868;
+    background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+    //background-color: #996868;
     color: white;
 }
 
@@ -394,19 +395,16 @@ table tbody tr:nth-child(odd) {
     background: #F5F5F5;
 }
 
+table tbody td:hover {
+    //transform: scale(1.01);
+    background: #D3D3D3;
 
-
-
-
-.verticale-links {
-    list-style: none;
-    margin-right: 5px;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    min-height: 55vh;
-    display: flex;
-    gap: 0.5rem;
 }
+
+
+
+
+
 
 footer {
     display: flex;
