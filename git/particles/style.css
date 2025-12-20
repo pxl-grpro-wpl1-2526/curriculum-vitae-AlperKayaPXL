@@ -23,6 +23,11 @@ main {
     color: white;
     padding: 2rem;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     color: #AAAAAA;
     font-size: 22px;
@@ -34,7 +39,7 @@ p {
     min-height: 100vh;
 }
 
-.education, .experience, .languages, .about-me, .projects {
+.education, .experience, .languages, .about-me, .projects, .skills {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -273,8 +278,8 @@ h1 {
 .job-beschrijving {
     text-align: center;
     padding-top: 20px;
-    font-size: 25px;
-    color: #AAAAAA;
+    font-size: 22px;
+    color: #FBF9F6;
     padding-bottom: 20px;
 }
 
@@ -404,11 +409,15 @@ table tbody tr:nth-child(odd):hover {
 
 table tbody tr:nth-child(even):hover {
 //transform: scale(1.01);
-    background: #3d2929;
+    //background: #3d2929;
+    background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+    color: #FBF9F6;
 
 }
 
 /* EINDE TALENKENNIS */
+
+
 
 
  /* OVER MIJ PAGINA  Begint hier */
@@ -457,12 +466,36 @@ table tbody tr:nth-child(even):hover {
 }
 
 
+/* HIER BEGINT SKILLS PAGINA */
+/* HIER BEGINT SKILLS PAGINA */
+/* HIER BEGINT SKILLS PAGINA */
 
+.skills {
+    min-height: 100vh;
+}
+
+
+/* FOOTER VOOR ALLE PAGINAS*/
+/* FOOTER VOOR ALLE PAGINAS*/
+/* FOOTER VOOR ALLE PAGINAS*/
 
 footer {
     display: flex;
-    padding: 112px 12px 12px 0;
+    padding: 60px 150px 10px 150px;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+.button-img {
+    //background: none;
+    width: 70px;
+    height: 70px;
+}
+
+.button-img:hover {
+    transform: scale(1.10);
+
 }
 
 
