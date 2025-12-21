@@ -1,6 +1,7 @@
 * {
     font-family: Nunito, sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -482,7 +483,7 @@ table tbody tr:nth-child(even):hover {
 .skill-card:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(61, 41, 41, 1);
-    border: 4px solid rgba(61, 41, 41, 1);
+    border: 2px solid #FBF9F6;
 
 }
 
