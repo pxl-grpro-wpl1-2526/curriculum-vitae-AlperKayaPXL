@@ -7,7 +7,14 @@ html, body {
     height: 100%;
     background: #3d2929;
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+    scroll-behavior: smooth;
+}
 
+p {
+    color: #AAAAAA;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
