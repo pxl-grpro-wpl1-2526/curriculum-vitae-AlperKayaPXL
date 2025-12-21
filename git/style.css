@@ -1,6 +1,5 @@
 * {
     font-family: Nunito, sans-serif;
-    line-height: 2.2em;
     scroll-behavior: smooth;
 }
 
@@ -13,15 +12,27 @@ html, body {
 }
 
 p {
+    line-height: 2em;
     color: #AAAAAA;
-    font-size: 22px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
 .main-content {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto;
+}
+
+.education, .experience, .languages, .about-me, .projects, .skills, .hero {
+    padding-top: 40px;
+}
+
+.sectie-titel {
+    font-size: 40px;
+    color: #FBF9F6;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 
@@ -40,7 +51,7 @@ header {
 
 
 .nav-inner {
-    max-width: 1440px;
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,6 +83,7 @@ header {
     list-style: none;
     padding: 15px 20px;
     border-radius: 17px;
+    font-size: 16px;
 
 }
 
@@ -97,12 +109,12 @@ header {
 .hero {
     padding-top: 4rem;
     display: flex;
-    align-items: stretch;
+    //align-items: stretch;
 }
 
 #hero-image {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     border: 20px solid #3d2929;
 
@@ -116,7 +128,7 @@ header {
 
 .hero-titel h1{
     color: #996868;
-    font-size: 4.5rem;
+    font-size: 56px;
     text-align: left;
 }
 
@@ -127,7 +139,7 @@ header {
 
 .hero-informatie {
     margin-left: 100px;
-    width: 100%;
+    //width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -136,7 +148,7 @@ header {
 
 h4 {
     font-family: "Nunito", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #FBF9F6;
     margin: 2px 0;
     padding: 0;
@@ -203,15 +215,15 @@ h1 {
     text-align: center;
     align-content: center;
     justify-content: center;
-    height: 420px;
+    height: 360px;
     width: 100%;
     margin: 20px 0 0 0;
 }
 
 .experience-card:hover {
-    transform: translateY(-4px);
     box-shadow: 0 10px 10px -1px #FBF9F6;
-    border-color: #996868;
+    border: 2px solid #AAAAAA;
+
 
 }
 
@@ -223,13 +235,13 @@ h1 {
 
 
 .experience h2, .experience-title {
-    font-size: 32px;
+    font-size: 26px;
     color: #996868;
 }
 
 .organisatie {
     color: #996868;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .periode {
@@ -240,7 +252,7 @@ h1 {
 .job-beschrijving {
     text-align: center;
     padding-top: 20px;
-    font-size: 22px;
+    font-size: 18px;
     color: #FBF9F6;
     padding-bottom: 20px;
 }
@@ -251,14 +263,74 @@ h1 {
     list-style: circle;
     margin-left: 35px;
     color: #AAAAAA;
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
+    line-height: 2rem;
 //padding-left: 10px;
 
 }
 
 
 /* Einde ervaring */
+
+/* OPLEIDING Begint hier */
+
+.education {
+    padding: 100px 0;
+
+}
+
+.education-content {
+    margin: 0;
+    padding: 0;
+//background: #FBF9F6;
+    background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
+    border: 1px solid #AAAAAA;
+//background: #2C2C2E;
+}
+
+.education-timeline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 60px 0;
+}
+
+/* Horizontale lijn */
+.education-timeline::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #F5F5F5;
+}
+
+.opleiding-titel {
+    padding: 0;
+    color: #FBF9F6;
+}
+
+.opleiding-logo {
+    height: 70px;
+    width: 70px;
+}
+
+.opleiding-logo:hover {
+    transform: scale(1.1);
+}
+
+.timeline-item {
+    position: relative;
+    text-align: center;
+    width: 33%;
+}
+
+.huidig {
+    color: #996868;
+}
+
 
 
 
