@@ -144,7 +144,6 @@ header {
     margin-left: 100px;
     display: flex;
     flex-direction: column;
-    //justify-content: space-between;
 
 }
 
@@ -190,12 +189,9 @@ h1 {
     text-align: left;
 }
 
-.experience-content {
-    //padding-top: 140px;
-}
 
 .experience-container {
-    //padding-top: 10px;
+    padding-top: 10px;
 
 }
 
@@ -268,7 +264,7 @@ h1 {
     font-size: 16px;
     text-align: left;
     line-height: 2rem;
-//padding-left: 10px;
+    padding-left: 10px;
 
 }
 
@@ -285,10 +281,9 @@ h1 {
 .education-content {
     margin: 0;
     padding: 0;
-//background: #FBF9F6;
+    background: #FBF9F6;
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
     border: 1px solid #AAAAAA;
-//background: #2C2C2E;
 }
 
 .education-timeline {
@@ -362,7 +357,6 @@ th {
 
 thead {
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
-//background-color: #996868;
     color: white;
 }
 
@@ -423,7 +417,6 @@ table tbody tr:nth-child(even):hover {
 
 .project-titel {
     color: #996868;
-//color: #FBF9F6;
     font-size: 26px;
     padding-top: 40px;
 }
@@ -526,7 +519,175 @@ footer {
 
 /* */
 
-@media (max-width: 576px) {
+/* DESKTOP Media query */
+@media (min-width: 992px ) and (max-width: 1280px ) {
+
+    .nav-inner {
+        margin: 0 30px;
+    }
+
+    .hero {
+        margin: 0 30px;
+    }
+
+    .experience {
+        padding-top: 0;
+    }
+
+    .experience-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px;
+    }
+
+
+
+
+
+    /* About me pagina */
+    .about-pagina {
+        padding:0 30px;
+    }
+
+    .sinum-images {
+        padding: 10px 0;
+    }
+    #sinum-logo {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+/* TABLET */
+@media (min-width: 576px ) and (max-width: 991px) {
+    .navbar {
+        padding: 0.75rem;
+    }
+
+    .hero {
+        display: block;
+
+    }
+
+    .hero-image {
+        text-align: center;
+    }
+
+    .hero-informatie {
+        padding: 0 45px;
+        margin: 0;
+    }
+
+    .hero-titel h1 {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .experience {
+        text-align: left;
+    }
+
+    .experience-cards {
+        grid-template-columns: 1fr;
+        margin: 0 45px;
+    }
+
+    .experience-title {
+        font-size: 30px;
+    }
+
+    .organisatie {
+        font-size: 20px;
+    }
+
+    .job-beschrijving {
+        font-size: 22px;
+    }
+
+    .beschrijving-item {
+        font-size: 20px;
+    }
+
+    .periode {
+        font-size: 18px;
+    }
+
+
+    /* EDUCATION */
+    .education {
+        padding: 100px 0;
+    }
+
+    .education-content {
+        border: none;
+
+
+    }
+
+    .timeline-item {
+        padding-left: 30px;
+        text-align: left;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .education-timeline {
+        flex-direction: column;
+
+    }
+
+    .education-timeline::before {
+        display: none;
+    }
+
+    .education {
+        padding: 120px 0 0 0;
+    }
+
+    .languages {
+        padding-top: 0;
+    }
+
+    /* ABOUT ME pagina */
+    .about-pagina {
+        padding:0 20px;
+    }
+
+    .project-titel, .projects {
+        padding-top: 0;
+    }
+
+    .sinum-images {
+        display: block;
+
+    }
+    #sinum-logo {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* Skills pagina */
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr) ;
+        padding: 20px;
+    }
+
+
+
+
+    footer {
+        padding: 0 15px;
+        margin: 0;
+    }
+
+}
+
+
+
+@media (max-width: 575px) {
 
     /* ALGEMEEN */
 
@@ -555,7 +716,7 @@ footer {
     .hero {
         display: block;
         text-align: left;
-        //align-content: center;
+        align-content: center;
         padding-left: 0;
         margin-left: 0;
     }
@@ -613,7 +774,7 @@ footer {
 
     /* EDUCATION */
     .education {
-        //padding: 100px 0;
+        padding: 100px 0;
     }
 
     .education-content {
