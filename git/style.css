@@ -1,13 +1,15 @@
-html, body {
+* {
     font-family: Nunito, sans-serif;
     line-height: 2.2em;
+    scroll-behavior: smooth;
+}
+
+html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
     background: #3d2929;
     background: linear-gradient(90deg,rgba(61, 41, 41, 1) 10%, rgba(0, 0, 0, 1) 41%, rgba(61, 41, 41, 1) 96%);
-    scroll-behavior: smooth;
+
 }
 
 p {
@@ -16,6 +18,12 @@ p {
     margin: 0;
     padding: 0;
 }
+
+.main-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 header {
     font-family: "Nunito", sans-serif;
