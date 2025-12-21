@@ -34,6 +34,7 @@ p {
     color: #FBF9F6;
     text-align: center;
     padding-bottom: 10px;
+    margin: 0;
 }
 
 
@@ -277,7 +278,7 @@ h1 {
 /* OPLEIDING Begint hier */
 
 .education {
-    padding: 100px 0;
+    padding-top: 100px;
 
 }
 
@@ -291,6 +292,7 @@ h1 {
 }
 
 .education-timeline {
+
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -304,7 +306,7 @@ h1 {
     top: 100px;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: #F5F5F5;
 }
 
@@ -517,3 +519,196 @@ footer {
     transform: scale(1.10);
 
 }
+
+/* */
+
+/* MEDIA QUERIES */
+
+/* */
+
+@media (max-width: 576px) {
+
+    /* ALGEMEEN */
+
+    /* Font-size verhogen waar nodig voor betere mobile experience. */
+
+    p {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+
+
+
+    /* */
+
+    /* NAV BAR */
+    .navbar {
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
+
+    /* HERO */
+    .hero {
+        display: block;
+        text-align: left;
+        //align-content: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .hero-informatie {
+        margin: 30px;
+    }
+
+    .hero-image {
+        text-align: center;
+    }
+
+
+    .hero-buttons {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .hero-button {
+        margin-top: 10px;
+    }
+
+    /* ERVARING */
+
+
+
+
+    .experience-cards {
+        grid-template-columns: 1fr;
+        margin: 0 30px;
+    }
+
+    .experience-title {
+        font-size: 30px;
+    }
+
+    .organisatie {
+        font-size: 20px;
+    }
+
+    .job-beschrijving {
+        font-size: 22px;
+    }
+
+    .beschrijving-item {
+        font-size: 20px;
+    }
+
+    .periode {
+        font-size: 18px;
+    }
+
+
+
+
+    /* EDUCATION */
+    .education {
+        //padding: 100px 0;
+    }
+
+    .education-content {
+        border: none;
+
+
+    }
+
+    .timeline-item {
+        padding-left: 30px;
+        text-align: left;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .education-timeline {
+        flex-direction: column;
+
+    }
+
+    .education-timeline::before {
+        display: none;
+
+
+    }
+
+
+    /* ABOUT ME PAGINA MOBILE */
+
+    .about-pagina {
+        padding: 20px;
+    }
+
+    .hobbies-list li {
+        font-size: 20px;
+    }
+
+    .sinum-images {
+        display: block;
+
+    }
+    #sinum-logo {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* SKILLS PAGINA MOBILE */
+
+
+
+    /* GRIDS 2 * 2          */
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+
+
+
+
+
+    footer {
+        padding: 0 15px;
+        margin: 0;
+    }
+
+    footer p {
+        font-size: 16px;
+
+    }
+
+} /* Einde MOBILE Media query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
