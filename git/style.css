@@ -71,3 +71,75 @@ header {
     color: white;
     font-weight: bold;
 }
+
+/* */
+/* */
+/* BEGIN HERO SECTIE */
+/* */
+/* */
+
+
+.hero {
+    padding-top: 4rem;
+    display: flex;
+    align-items: stretch;
+}
+
+#hero-image {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 20px solid #3d2929;
+
+}
+
+.hero-titel h1{
+    color: #996868;
+    font-size: 4.5rem;
+    text-align: left;
+}
+
+.hero-text {
+    padding-bottom: 40px;
+}
+
+
+.hero-informatie {
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h4 {
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: #FBF9F6;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.hero-buttons p {
+    font-family: Nunito, sans-serif;
+    margin: 10px 10px;
+}
+
+.hero-button {
+    background: none;
+    border: 1pt solid #996868;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.hero-button:hover {
+    transform: scale(1.01);
+    border-color: #996868;
+}
