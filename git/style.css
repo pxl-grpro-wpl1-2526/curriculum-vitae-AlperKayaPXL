@@ -107,9 +107,10 @@ header {
 
 
 .hero {
-    padding-top: 4rem;
+    min-height: 100vh;
+    padding-top: 7rem;
     display: flex;
-    //align-items: stretch;
+
 }
 
 #hero-image {
@@ -139,10 +140,9 @@ header {
 
 .hero-informatie {
     margin-left: 100px;
-    //width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    //justify-content: space-between;
 
 }
 
@@ -183,17 +183,17 @@ h4 {
 
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
     color: #996868;
     text-align: left;
 }
 
 .experience-content {
-    padding-top: 140px;
+    //padding-top: 140px;
 }
 
 .experience-container {
-    padding-top: 10px;
+    //padding-top: 10px;
 
 }
 
@@ -385,6 +385,114 @@ table tbody tr:nth-child(even):hover {
 }
 
 /* EINDE TALENKENNIS */
+
+
+
+
+
+/*  */
+
+/* Over mij pagina*/
+
+/*  */
+
+.about-pagina {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+
+.projects-content {
+    padding-top: 40px;
+}
+
+.hobbies-div {
+    padding-top: 40px;
+}
+
+.hobbies-list {
+    color: #AAAAAA;
+}
+.hobbies-list li {
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.project-titel {
+    color: #996868;
+//color: #FBF9F6;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.sinum-images {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#teamfoto {
+    width: 500px;
+    height: auto;
+}
+
+#sinum-logo {
+    height: auto;
+    width: 500px;
+    margin-left: 40px;
+}
+
+/* */
+
+/* Skills pagina  */
+
+/* */
+
+.skills {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 70vh;
+}
+
+.skills-container {
+    max-width: 900px;
+
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.skill-card {
+    margin: 10px 0;
+    border: 3px solid rgba(61, 41, 41, 1);
+    padding: 30px;
+    border-radius: 20px;
+    background: black;
+    box-shadow: 0 2px 5px rgba(61, 41, 41, 1);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(61, 41, 41, 1);
+    border: 4px solid rgba(61, 41, 41, 1);
+
+}
+
+.skill-icon {
+    height: 70px;
+    width: 70px;
+    border: none;
+}
+
+
 
 
 /* FOOTER  */
