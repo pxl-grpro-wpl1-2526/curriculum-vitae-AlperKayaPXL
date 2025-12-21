@@ -93,6 +93,12 @@ header {
 
 }
 
+
+/* Schaduw bij het hoveren van de hero image */
+#hero-image:hover {
+    box-shadow: 0 0 20px #996868;
+}
+
 .hero-titel h1{
     color: #996868;
     font-size: 4.5rem;
