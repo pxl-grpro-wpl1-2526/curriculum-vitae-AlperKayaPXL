@@ -381,6 +381,12 @@ table tbody tr:nth-child(even):hover {
 
 }
 
+.languages-content-mobile {
+    display: none;
+}
+
+
+
 /* EINDE TALENKENNIS */
 
 
@@ -540,6 +546,13 @@ footer {
     }
 
 
+    .languages-content-mobile {
+        display: none;
+    }
+
+    .languages-content, .education-content {
+        margin: 0 30px;
+    }
 
 
 
@@ -622,8 +635,11 @@ footer {
 
     .education-content {
         border: none;
+        padding: 0 30px;
+    }
 
-
+    .languages-content {
+        padding: 0 30px;
     }
 
     .timeline-item {
@@ -648,6 +664,10 @@ footer {
 
     .languages {
         padding-top: 0;
+    }
+
+    .languages-content-mobile {
+        display: none;
     }
 
     /* ABOUT ME pagina */
@@ -682,6 +702,8 @@ footer {
         padding: 0 15px;
         margin: 0;
     }
+
+
 
 }
 
@@ -774,7 +796,7 @@ footer {
 
     /* EDUCATION */
     .education {
-        padding: 100px 0;
+        padding-top: 100px;
     }
 
     .education-content {
@@ -799,6 +821,33 @@ footer {
         display: none;
 
 
+    }
+
+
+
+    /* MOBILE LANGUAGES */
+
+    .languages-content-mobile {
+        display: block;
+    }
+
+    .languages-content {
+        display: none;
+    }
+
+    .languages-list {
+        list-style: none;
+        border: 2px solid #FBF9F6;
+        background: #996868;
+        margin: 20px 20px;
+
+    }
+
+    .languages-list li {
+
+        font-size: 20px;
+        line-height: 3rem;
+        color: black;
     }
 
 
