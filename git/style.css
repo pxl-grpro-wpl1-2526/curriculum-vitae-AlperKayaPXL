@@ -298,3 +298,26 @@ table tbody tr:nth-child(even):hover {
 }
 
 /* EINDE TALENKENNIS */
+
+
+/* FOOTER  */
+
+footer {
+    display: flex;
+    padding: 60px 150px 0 150px;
+
+    justify-content: space-between; /* verspreid de elementen */
+    /* links naam en klas midden tekst en rechts het knopje */
+    align-items: center;
+}
+
+
+.button-img {
+    width: 70px;
+    height: 70px;
+}
+
+.button-img:hover {
+    transform: scale(1.10);
+
+}
